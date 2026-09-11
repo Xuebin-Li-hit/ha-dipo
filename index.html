@@ -80,8 +80,24 @@
       </div>
     </section>
 
+    <section class="section wrap perception" id="perception" aria-labelledby="perception-title">
+      <div class="section-heading"><div><span class="section-index">03 / Perception</span><h2 id="perception-title">Onboard Payload Perception</h2></div></div>
+      <p class="section-intro">The estimator combines onboard 3-D LiDAR and IMU measurements to recover the payload center and axis in each robot’s local frame. Three retroreflective bands provide geometric constraints for association and filtering.</p>
+      <figure class="paper-overview perception-figure">
+        <a href="assets/images/figure-2-onboard-perception.png" target="_blank" rel="noopener noreferrer" aria-label="Open Figure 2 at full size in a new tab">
+          <img src="assets/images/figure-2-onboard-perception.png" width="1572" height="1452" loading="lazy" alt="Figure 2. Panels a and b show the onboard LiDAR sensing layout and three-band geometry, followed by the estimation pipeline. Panels c, d, and e show raw points, filtered returns, and the estimated rod axis from the same real-robot static LiDAR scan." aria-describedby="figure-2-caption">
+        </a>
+        <figcaption>
+          <div class="figure-caption-row">
+            <p id="figure-2-caption"><strong>Figure 2. Geometry-constrained onboard payload perception.</strong> Panels (a)–(b) show the sensing layout and three-band model, with the estimation pipeline below. Panels (c)–(e) show raw points, filtered returns, and the rod-axis estimate from <strong>one static real-robot LiDAR scan</strong>. White circles mark measured cluster centers; the magenta line spans the estimated outer-marker baseline. The three measured views share the viewpoint and intensity scale.</p>
+            <a class="text-link" href="assets/images/figure-2-onboard-perception.png" target="_blank" rel="noopener noreferrer" aria-label="View Figure 2 at full size in a new tab">View full size <span aria-hidden="true">↗</span></a>
+          </div>
+        </figcaption>
+      </figure>
+    </section>
+
     <section class="section wrap demonstrations" id="demonstrations" aria-labelledby="demos-title">
-      <div class="section-heading"><div><span class="section-index">03 / Demonstrations</span><h2 id="demos-title">Cooperative transport in motion.</h2></div><a class="text-link" href="#featured-demo">Featured B2 + B2W video <span aria-hidden="true">↗</span></a></div>
+      <div class="section-heading"><div><span class="section-index">04 / Demonstrations</span><h2 id="demos-title">Cooperative transport in motion.</h2></div><a class="text-link" href="#featured-demo">Featured B2 + B2W video <span aria-hidden="true">↗</span></a></div>
       <p class="section-intro">The four B2 + B2W Isaac Lab motion clips use the policy evaluated on September 11, 2026. Selected B2 + B2 clips accompany them; short motion clips share command schedules. These are illustrative rollouts, not a controlled comparison.</p>
       <div class="demo-grid">
         <article class="demo-card">
@@ -196,7 +212,7 @@
           <p>Experimental videos with physical robots will be added here.</p>
         </div>
       </section>
-      <aside class="evidence-note"><strong>About these demonstrations</strong><p>All available videos on this page are simulations. They show individual recorded rollouts, not aggregate success rates or hardware validation. The B2 + B2W Isaac Lab motion clips and selected B2 + B2 clips use a 1.5 m rod, but their policies, pitch bounds, and simulator conditions differ. The B2 + B2W perturbation clips use a 2 m rod. Formal comparative results and real-robot demonstrations are not included in this draft.</p></aside>
+      <aside class="evidence-note"><strong>About these demonstrations</strong><p>All available videos on this page are simulations. They show individual recorded rollouts, not aggregate success rates or hardware validation. The B2 + B2W Isaac Lab motion clips and selected B2 + B2 clips use a 1.5 m rod, but their policies, pitch bounds, and simulator conditions differ. The B2 + B2W perturbation clips use a 2 m rod. Formal comparative results and real-robot transport videos are not included in this draft.</p></aside>
     </section>
   </main>
   <footer class="site-footer wrap"><a class="wordmark" href="#main">HA-DiPO<span aria-hidden="true">.</span></a><p>Anonymous research project <span aria-hidden="true">/</span> Paper, arXiv, and code links forthcoming.</p><a href="#main" class="back-top">Back to top ↑</a></footer>
