@@ -2,7 +2,7 @@
 
 Project page for **HA-DiPO: Sequential Diffusion Policy Optimization for Heterogeneous Cooperative Transport**.
 
-This static website contains the method overview, manuscript Figure 1, and simulation demonstrations. The featured Isaac Lab rollout, four motion clips, and MuJoCo rollout use the B2 + B2W policy evaluated on September 11, 2026 (1.5 m rod, native pitch bounds of ±0.04 rad). Two earlier B2 + B2W perturbation clips are labeled separately; three B2 + B2 clips remain for illustration. Real-robot videos and paper, arXiv, and code links are forthcoming.
+This static website contains the method overview, manuscript Figure 1, and simulation demonstrations. The featured Isaac Lab rollout, four motion clips, and MuJoCo rollout use the B2 + B2W policy evaluated on September 11, 2026 (1.5 m rod, native pitch bounds of ±0.04 rad). Two B2 + B2W perturbation clips use a 2 m rod; three B2 + B2 clips remain for illustration. Real-robot videos and paper, arXiv, and code links are forthcoming.
 
 ## GitHub Pages
 
