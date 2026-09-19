@@ -34,17 +34,16 @@
         <button type="button" disabled title="arXiv link forthcoming">arXiv <span>Forthcoming</span></button>
         <button type="button" disabled title="GitHub link forthcoming">GitHub <span>Forthcoming</span></button>
       </div>
-      <figure class="lead-figure feature-video" id="featured-demo">
-        <div class="video-frame">
-          <video id="featured-video" controls playsinline preload="none" poster="assets/images/heterogeneous-mujoco.jpg" width="1280" height="720" aria-label="B2 and B2W heterogeneous transport in MuJoCo" aria-describedby="featured-description">
-            <source src="assets/videos/heterogeneous-mujoco.mp4" type="video/mp4">
-            Your browser does not support embedded video. <a href="assets/videos/heterogeneous-mujoco.mp4">Open the MP4.</a>
-          </video>
-          <p class="media-error" hidden>This video could not be loaded. <a href="assets/videos/heterogeneous-mujoco.mp4">Open the MP4 directly.</a></p>
+      <figure class="lead-figure feature-video feature-sim2real" id="featured-demo">
+        <div class="hardware-preview" aria-labelledby="featured-status">
+          <span class="preview-kicker">B2 + B2W · Sim2Real</span>
+          <svg viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="5" y="12" width="26" height="24" rx="4"/><path d="m31 20 12-6v20l-12-6Z"/></svg>
+          <p class="preview-title">Real-robot cooperative transport</p>
+          <span class="preview-status" id="featured-status">Video forthcoming</span>
         </div>
         <figcaption>
-          <div><span class="media-eyebrow">Featured demonstration</span><h2>Two embodiments, coordinated motion.</h2><p id="featured-description">B2 + B2W in MuJoCo. An 8 kg rod with a 4 kg attached mass; pitch commands clamped to ±0.02 rad.</p></div>
-          <span class="video-duration">31 s <span aria-hidden="true">/</span> Sim2Sim</span>
+          <div><span class="media-eyebrow">Featured demonstration · Sim2Real</span><h2>Two embodiments, one shared load.</h2><p id="featured-description">Real-robot cooperative transport videos will be featured here.</p></div>
+          <span class="video-duration">B2 + B2W</span>
         </figcaption>
       </figure>
     </section>
@@ -103,83 +102,83 @@
       <div class="demo-grid">
         <article class="demo-card">
           <div class="video-frame">
-            <video controls playsinline preload="none" poster="assets/images/heterogeneous-mujoco-rolling0015.jpg" width="1280" height="720" aria-label="B2 + B2W: Multi-command transport in MuJoCo" aria-describedby="heterogeneous-mujoco-rolling0015-description">
-              <source src="assets/videos/heterogeneous-mujoco-rolling0015.mp4" type="video/mp4">
-              <a href="assets/videos/heterogeneous-mujoco-rolling0015.mp4">Open this demonstration as an MP4.</a>
+            <video controls playsinline preload="none" poster="assets/images/heterogeneous-mujoco-r002-multicommand.jpg" width="1280" height="720" aria-label="B2 + B2W: Multi-command transport in MuJoCo" aria-describedby="heterogeneous-mujoco-r002-multicommand-description">
+              <source src="assets/videos/heterogeneous-mujoco-r002-multicommand.mp4" type="video/mp4">
+              <a href="assets/videos/heterogeneous-mujoco-r002-multicommand.mp4">Open this demonstration as an MP4.</a>
             </video>
-            <p class="media-error" hidden>This video could not be loaded. <a href="assets/videos/heterogeneous-mujoco-rolling0015.mp4">Open the MP4 directly.</a></p>
+            <p class="media-error" hidden>This video could not be loaded. <a href="assets/videos/heterogeneous-mujoco-r002-multicommand.mp4">Open the MP4 directly.</a></p>
           </div>
-          <div class="demo-copy"><div class="demo-meta"><span>B2 + B2W / MuJoCo</span><span>29.5 s</span></div><h3>Multi-command transport</h3><p id="heterogeneous-mujoco-rolling0015-description">Forward, lateral, turning, and backward commands in one continuous rollout.</p><span class="condition">Continuous rollout</span></div>
+          <div class="demo-copy"><div class="demo-meta"><span>B2 + B2W / MuJoCo</span><span>35 s</span></div><h3>Multi-command transport</h3><p id="heterogeneous-mujoco-r002-multicommand-description">Forward, backward, lateral, and turning commands in one continuous rollout.</p><span class="condition">Continuous rollout</span></div>
         </article>
         <article class="demo-card">
           <div class="video-frame">
-            <video controls playsinline preload="none" poster="assets/images/homogeneous-mujoco-multicommand.jpg" width="1280" height="720" aria-label="B2 + B2: Homogeneous cooperative transport in MuJoCo" aria-describedby="homogeneous-mujoco-multicommand-description">
-              <source src="assets/videos/homogeneous-mujoco-multicommand.mp4" type="video/mp4">
-              <a href="assets/videos/homogeneous-mujoco-multicommand.mp4">Open this demonstration as an MP4.</a>
+            <video controls playsinline preload="none" poster="assets/images/homogeneous-mujoco-r002-multicommand.jpg" width="1280" height="720" aria-label="B2 + B2: Homogeneous cooperative transport in MuJoCo" aria-describedby="homogeneous-mujoco-r002-multicommand-description">
+              <source src="assets/videos/homogeneous-mujoco-r002-multicommand.mp4" type="video/mp4">
+              <a href="assets/videos/homogeneous-mujoco-r002-multicommand.mp4">Open this demonstration as an MP4.</a>
             </video>
-            <p class="media-error" hidden>This video could not be loaded. <a href="assets/videos/homogeneous-mujoco-multicommand.mp4">Open the MP4 directly.</a></p>
+            <p class="media-error" hidden>This video could not be loaded. <a href="assets/videos/homogeneous-mujoco-r002-multicommand.mp4">Open the MP4 directly.</a></p>
           </div>
-          <div class="demo-copy"><div class="demo-meta"><span>B2 + B2 / MuJoCo</span><span>47.6 s</span></div><h3>Homogeneous cooperative transport</h3><p id="homogeneous-mujoco-multicommand-description">Two quadrupeds carry a shared rod and a 4 kg attached load through a sequence of motion commands.</p><span class="condition">Continuous rollout</span></div>
+          <div class="demo-copy"><div class="demo-meta"><span>B2 + B2 / MuJoCo</span><span>40 s</span></div><h3>Homogeneous cooperative transport</h3><p id="homogeneous-mujoco-r002-multicommand-description">Two quadrupeds carry a shared rod through a sequence of motion commands.</p><span class="condition">Continuous rollout</span></div>
         </article>
         <article class="demo-card">
           <div class="video-frame">
-            <video controls playsinline preload="none" poster="assets/images/heterogeneous-mujoco-forward.jpg" width="1280" height="720" aria-label="B2 + B2W: Forward coordination in MuJoCo" aria-describedby="heterogeneous-mujoco-forward-description">
-              <source src="assets/videos/heterogeneous-mujoco-forward.mp4" type="video/mp4">
-              <a href="assets/videos/heterogeneous-mujoco-forward.mp4">Open this demonstration as an MP4.</a>
+            <video controls playsinline preload="none" poster="assets/images/heterogeneous-mujoco-r002-forward.jpg" width="1280" height="720" aria-label="B2 + B2W: Forward coordination in MuJoCo" aria-describedby="heterogeneous-mujoco-r002-forward-description">
+              <source src="assets/videos/heterogeneous-mujoco-r002-forward.mp4" type="video/mp4">
+              <a href="assets/videos/heterogeneous-mujoco-r002-forward.mp4">Open this demonstration as an MP4.</a>
             </video>
-            <p class="media-error" hidden>This video could not be loaded. <a href="assets/videos/heterogeneous-mujoco-forward.mp4">Open the MP4 directly.</a></p>
+            <p class="media-error" hidden>This video could not be loaded. <a href="assets/videos/heterogeneous-mujoco-r002-forward.mp4">Open the MP4 directly.</a></p>
           </div>
-          <div class="demo-copy"><div class="demo-meta"><span>B2 + B2W / MuJoCo</span><span>7.6 s</span></div><h3>Forward coordination</h3><p id="heterogeneous-mujoco-forward-description">Forward translation with 0.3 and 0.6 m/s commands.</p><span class="condition">Motion excerpt</span></div>
+          <div class="demo-copy"><div class="demo-meta"><span>B2 + B2W / MuJoCo</span><span>8 s</span></div><h3>Forward coordination</h3><p id="heterogeneous-mujoco-r002-forward-description">Forward transport with a +0.35 m/s command, followed by a stop.</p><span class="condition">Forward motion</span></div>
         </article>
         <article class="demo-card">
           <div class="video-frame">
-            <video controls playsinline preload="none" poster="assets/images/heterogeneous-mujoco-turn-left.jpg" width="1280" height="720" aria-label="B2 + B2W: Turning left in MuJoCo" aria-describedby="heterogeneous-mujoco-turn-left-description">
-              <source src="assets/videos/heterogeneous-mujoco-turn-left.mp4" type="video/mp4">
-              <a href="assets/videos/heterogeneous-mujoco-turn-left.mp4">Open this demonstration as an MP4.</a>
+            <video controls playsinline preload="none" poster="assets/images/heterogeneous-mujoco-r002-backward.jpg" width="1280" height="720" aria-label="B2 + B2W: Backward coordination in MuJoCo" aria-describedby="heterogeneous-mujoco-r002-backward-description">
+              <source src="assets/videos/heterogeneous-mujoco-r002-backward.mp4" type="video/mp4">
+              <a href="assets/videos/heterogeneous-mujoco-r002-backward.mp4">Open this demonstration as an MP4.</a>
             </video>
-            <p class="media-error" hidden>This video could not be loaded. <a href="assets/videos/heterogeneous-mujoco-turn-left.mp4">Open the MP4 directly.</a></p>
+            <p class="media-error" hidden>This video could not be loaded. <a href="assets/videos/heterogeneous-mujoco-r002-backward.mp4">Open the MP4 directly.</a></p>
           </div>
-          <div class="demo-copy"><div class="demo-meta"><span>B2 + B2W / MuJoCo</span><span>3.8 s</span></div><h3>Turning left</h3><p id="heterogeneous-mujoco-turn-left-description">Coordinated turning with a +0.35 rad/s yaw command.</p><span class="condition">Motion excerpt</span></div>
+          <div class="demo-copy"><div class="demo-meta"><span>B2 + B2W / MuJoCo</span><span>8 s</span></div><h3>Backward coordination</h3><p id="heterogeneous-mujoco-r002-backward-description">Backward transport with a −0.25 m/s command, followed by a stop.</p><span class="condition">Backward motion</span></div>
         </article>
         <article class="demo-card">
           <div class="video-frame">
-            <video controls playsinline preload="none" poster="assets/images/heterogeneous-mujoco-lateral-left.jpg" width="1280" height="720" aria-label="B2 + B2W: Lateral coordination · left in MuJoCo" aria-describedby="heterogeneous-mujoco-lateral-left-description">
-              <source src="assets/videos/heterogeneous-mujoco-lateral-left.mp4" type="video/mp4">
-              <a href="assets/videos/heterogeneous-mujoco-lateral-left.mp4">Open this demonstration as an MP4.</a>
+            <video controls playsinline preload="none" poster="assets/images/heterogeneous-mujoco-r002-turn-left.jpg" width="1280" height="720" aria-label="B2 + B2W: Turning left in MuJoCo" aria-describedby="heterogeneous-mujoco-r002-turn-left-description">
+              <source src="assets/videos/heterogeneous-mujoco-r002-turn-left.mp4" type="video/mp4">
+              <a href="assets/videos/heterogeneous-mujoco-r002-turn-left.mp4">Open this demonstration as an MP4.</a>
             </video>
-            <p class="media-error" hidden>This video could not be loaded. <a href="assets/videos/heterogeneous-mujoco-lateral-left.mp4">Open the MP4 directly.</a></p>
+            <p class="media-error" hidden>This video could not be loaded. <a href="assets/videos/heterogeneous-mujoco-r002-turn-left.mp4">Open the MP4 directly.</a></p>
           </div>
-          <div class="demo-copy"><div class="demo-meta"><span>B2 + B2W / MuJoCo</span><span>3.8 s</span></div><h3>Lateral coordination · left</h3><p id="heterogeneous-mujoco-lateral-left-description">Sideways transport with a +0.25 m/s lateral command.</p><span class="condition">Motion excerpt</span></div>
+          <div class="demo-copy"><div class="demo-meta"><span>B2 + B2W / MuJoCo</span><span>8 s</span></div><h3>Turning left</h3><p id="heterogeneous-mujoco-r002-turn-left-description">Coordinated turning with a +0.25 rad/s yaw command, followed by a stop.</p><span class="condition">Left turn</span></div>
         </article>
         <article class="demo-card">
           <div class="video-frame">
-            <video controls playsinline preload="none" poster="assets/images/heterogeneous-mujoco-backward.jpg" width="1280" height="720" aria-label="B2 + B2W: Backward coordination in MuJoCo" aria-describedby="heterogeneous-mujoco-backward-description">
-              <source src="assets/videos/heterogeneous-mujoco-backward.mp4" type="video/mp4">
-              <a href="assets/videos/heterogeneous-mujoco-backward.mp4">Open this demonstration as an MP4.</a>
+            <video controls playsinline preload="none" poster="assets/images/heterogeneous-mujoco-r002-turn-right.jpg" width="1280" height="720" aria-label="B2 + B2W: Turning right in MuJoCo" aria-describedby="heterogeneous-mujoco-r002-turn-right-description">
+              <source src="assets/videos/heterogeneous-mujoco-r002-turn-right.mp4" type="video/mp4">
+              <a href="assets/videos/heterogeneous-mujoco-r002-turn-right.mp4">Open this demonstration as an MP4.</a>
             </video>
-            <p class="media-error" hidden>This video could not be loaded. <a href="assets/videos/heterogeneous-mujoco-backward.mp4">Open the MP4 directly.</a></p>
+            <p class="media-error" hidden>This video could not be loaded. <a href="assets/videos/heterogeneous-mujoco-r002-turn-right.mp4">Open the MP4 directly.</a></p>
           </div>
-          <div class="demo-copy"><div class="demo-meta"><span>B2 + B2W / MuJoCo</span><span>3.8 s</span></div><h3>Backward coordination</h3><p id="heterogeneous-mujoco-backward-description">Backward translation with a −0.4 m/s command.</p><span class="condition">Motion excerpt</span></div>
+          <div class="demo-copy"><div class="demo-meta"><span>B2 + B2W / MuJoCo</span><span>8 s</span></div><h3>Turning right</h3><p id="heterogeneous-mujoco-r002-turn-right-description">Coordinated turning with a −0.25 rad/s yaw command, followed by a stop.</p><span class="condition">Right turn</span></div>
         </article>
         <article class="demo-card">
           <div class="video-frame">
-            <video controls playsinline preload="none" poster="assets/images/heterogeneous-mujoco-combined.jpg" width="1280" height="720" aria-label="B2 + B2W: Combined translation and turning in MuJoCo" aria-describedby="heterogeneous-mujoco-combined-description">
-              <source src="assets/videos/heterogeneous-mujoco-combined.mp4" type="video/mp4">
-              <a href="assets/videos/heterogeneous-mujoco-combined.mp4">Open this demonstration as an MP4.</a>
+            <video controls playsinline preload="none" poster="assets/images/heterogeneous-mujoco-r002-lateral-left.jpg" width="1280" height="720" aria-label="B2 + B2W: Lateral coordination · left in MuJoCo" aria-describedby="heterogeneous-mujoco-r002-lateral-left-description">
+              <source src="assets/videos/heterogeneous-mujoco-r002-lateral-left.mp4" type="video/mp4">
+              <a href="assets/videos/heterogeneous-mujoco-r002-lateral-left.mp4">Open this demonstration as an MP4.</a>
             </video>
-            <p class="media-error" hidden>This video could not be loaded. <a href="assets/videos/heterogeneous-mujoco-combined.mp4">Open the MP4 directly.</a></p>
+            <p class="media-error" hidden>This video could not be loaded. <a href="assets/videos/heterogeneous-mujoco-r002-lateral-left.mp4">Open the MP4 directly.</a></p>
           </div>
-          <div class="demo-copy"><div class="demo-meta"><span>B2 + B2W / MuJoCo</span><span>4.8 s</span></div><h3>Combined translation and turning</h3><p id="heterogeneous-mujoco-combined-description">Forward and lateral motion combined with a turning command.</p><span class="condition">Motion excerpt</span></div>
+          <div class="demo-copy"><div class="demo-meta"><span>B2 + B2W / MuJoCo</span><span>8 s</span></div><h3>Lateral coordination · left</h3><p id="heterogeneous-mujoco-r002-lateral-left-description">Sideways transport with a +0.22 m/s lateral command, followed by a stop.</p><span class="condition">Lateral motion</span></div>
         </article>
         <article class="demo-card">
           <div class="video-frame">
-            <video controls playsinline preload="none" poster="assets/images/heterogeneous-mujoco-push-positive40n.jpg" width="1280" height="720" aria-label="B2 + B2W: Payload perturbation · +40 N in MuJoCo" aria-describedby="heterogeneous-mujoco-push-positive40n-description">
-              <source src="assets/videos/heterogeneous-mujoco-push-positive40n.mp4" type="video/mp4">
-              <a href="assets/videos/heterogeneous-mujoco-push-positive40n.mp4">Open this demonstration as an MP4.</a>
+            <video controls playsinline preload="none" poster="assets/images/heterogeneous-mujoco-r002-push.jpg" width="1280" height="720" aria-label="B2 + B2W: Payload perturbation in MuJoCo" aria-describedby="heterogeneous-mujoco-r002-push-description">
+              <source src="assets/videos/heterogeneous-mujoco-r002-push.mp4" type="video/mp4">
+              <a href="assets/videos/heterogeneous-mujoco-r002-push.mp4">Open this demonstration as an MP4.</a>
             </video>
-            <p class="media-error" hidden>This video could not be loaded. <a href="assets/videos/heterogeneous-mujoco-push-positive40n.mp4">Open the MP4 directly.</a></p>
+            <p class="media-error" hidden>This video could not be loaded. <a href="assets/videos/heterogeneous-mujoco-r002-push.mp4">Open the MP4 directly.</a></p>
           </div>
-          <div class="demo-copy"><div class="demo-meta"><span>B2 + B2W / MuJoCo</span><span>9 s</span></div><h3>Payload perturbation · +40 N</h3><p id="heterogeneous-mujoco-push-positive40n-description">A +40 N push acts on the rod for 0.4 s. The orange arrow shows the applied force.</p><span class="condition">External perturbation</span></div>
+          <div class="demo-copy"><div class="demo-meta"><span>B2 + B2W / MuJoCo</span><span>9 s</span></div><h3>Payload perturbation</h3><p id="heterogeneous-mujoco-r002-push-description">A +40 N push acts on the payload along world +X from 4.0 to 4.4 s. The orange arrow shows the applied force.</p><span class="condition">External perturbation</span></div>
         </article>
       </div>
     </section>

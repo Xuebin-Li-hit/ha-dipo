@@ -2,7 +2,7 @@
 
 Project page for **HA-DiPO: Sequential Diffusion Policy Optimization for Heterogeneous Cooperative Transport**.
 
-This static project page presents HA-DiPO, manuscript Figures 1 and 2, and MuJoCo Sim2Sim demonstrations with B2 + B2W and B2 + B2 teams. All nine displayed videos are MuJoCo recordings: the original featured video, two continuous cooperative-transport rollouts, five motion excerpts, and one +40 N payload perturbation. Sim2Real has a dedicated section reserved for forthcoming real-robot videos. Paper, arXiv, and code links are forthcoming.
+This static project page presents HA-DiPO, manuscript Figures 1 and 2, and eight freshly recorded MuJoCo Sim2Sim demonstrations. B2 + B2W has five 8-second motion clips (forward, backward, left turn, right turn, and lateral), a 9-second payload-perturbation clip, and a 35-second continuous multi-command rollout. B2 + B2 has one 40-second continuous multi-command rollout. Both teams use 0.002 m rolling friction at the rod–main-back contact pairs. The featured slot and Sim2Real section are reserved for forthcoming real-robot footage. Paper, arXiv, and code links are forthcoming.
 
 ## GitHub Pages
 
