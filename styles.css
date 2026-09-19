@@ -28,3 +28,6 @@
 
 .perception{border-bottom:1px solid var(--line)}
 .perception-figure{max-width:940px;margin-inline:auto}
+
+.sim2real{border-top:1px solid var(--line)}
+.sim2real .hardware-placeholder{margin-top:0}

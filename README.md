@@ -2,7 +2,7 @@
 
 Project page for **HA-DiPO: Sequential Diffusion Policy Optimization for Heterogeneous Cooperative Transport**.
 
-This static website contains the method overview, manuscript Figures 1 and 2, and simulation demonstrations. Figure 2 combines the onboard perception schematic with processing results from one static real-robot LiDAR scan. The featured MuJoCo video shows an 8 kg rod with a 4 kg attached mass and pitch commands clamped to ±0.02 rad. The four Isaac Lab motion clips and the additional MuJoCo rollout use the B2 + B2W policy evaluated on September 11, 2026 (1.5 m rod, native pitch bounds of ±0.04 rad). The Sim2Sim / MuJoCo card uses the September 14 recording with rod–back rolling friction of 0.0015 m. Two B2 + B2W perturbation clips use a 2 m rod; three B2 + B2 clips remain for illustration. Real-robot videos and paper, arXiv, and code links are forthcoming.
+This static project page presents HA-DiPO, manuscript Figures 1 and 2, and MuJoCo Sim2Sim demonstrations with B2 + B2W and B2 + B2 teams. All nine displayed videos are MuJoCo recordings: the original featured video, two continuous cooperative-transport rollouts, five motion excerpts, and one +40 N payload perturbation. Sim2Real has a dedicated section reserved for forthcoming real-robot videos. Paper, arXiv, and code links are forthcoming.
 
 ## GitHub Pages
 
