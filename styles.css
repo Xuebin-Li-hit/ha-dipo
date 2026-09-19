@@ -31,10 +31,3 @@
 
 .sim2real{border-top:1px solid var(--line)}
 .sim2real .hardware-placeholder{margin-top:0}
-
-.feature-sim2real .hardware-preview{min-height:340px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;padding:44px 24px;text-align:center;color:#c5d3df;background:radial-gradient(ellipse at 50% 100%,#294458 0,transparent 65%),#172b3d}
-.hardware-preview .preview-kicker{font-size:.8125rem;letter-spacing:.12em;text-transform:uppercase;color:#c1cfda}
-.hardware-preview>svg{margin-top:7px;color:#819bae}
-.hardware-preview .preview-title{font-size:clamp(1.4rem,2.9vw,2rem);line-height:1.35;letter-spacing:-.025em;color:#f0f5f8;margin:0}
-.hardware-preview .preview-status{padding:5px 13px;border:1px solid #496173;border-radius:999px;font-size:.8125rem;color:#c5d3df}
-@media(max-width:700px){.feature-sim2real .hardware-preview{min-height:290px;padding:32px 22px;gap:16px}.hardware-preview .preview-kicker{font-size:.75rem}}

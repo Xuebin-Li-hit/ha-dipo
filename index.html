@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="HA-DiPO: Sequential Diffusion Policy Optimization for Heterogeneous Cooperative Transport. Anonymous research project page and simulation demonstrations.">
+  <meta name="description" content="HA-DiPO: Sequential Diffusion Policy Optimization for Heterogeneous Cooperative Transport. Anonymous research project page with simulation and real-robot demonstrations.">
   <meta name="robots" content="noindex, nofollow">
   <meta name="referrer" content="no-referrer">
   <title>HA-DiPO · Heterogeneous Cooperative Transport</title>
@@ -34,16 +34,17 @@
         <button type="button" disabled title="arXiv link forthcoming">arXiv <span>Forthcoming</span></button>
         <button type="button" disabled title="GitHub link forthcoming">GitHub <span>Forthcoming</span></button>
       </div>
-      <figure class="lead-figure feature-video feature-sim2real" id="featured-demo">
-        <div class="hardware-preview" aria-labelledby="featured-status">
-          <span class="preview-kicker">B2 + B2W · Sim2Real</span>
-          <svg viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="5" y="12" width="26" height="24" rx="4"/><path d="m31 20 12-6v20l-12-6Z"/></svg>
-          <p class="preview-title">Real-robot cooperative transport</p>
-          <span class="preview-status" id="featured-status">Video forthcoming</span>
+      <figure class="lead-figure feature-video" id="featured-demo">
+        <div class="video-frame">
+          <video id="featured-video" controls playsinline preload="none" poster="assets/images/real-cooperative-transport-full-20260920.jpg" width="1920" height="1080" aria-label="Real-robot cooperative transport" aria-describedby="featured-description">
+            <source src="assets/videos/real-cooperative-transport-full-20260920.mp4" type="video/mp4">
+            Your browser does not support embedded video. <a href="assets/videos/real-cooperative-transport-full-20260920.mp4">Open the MP4.</a>
+          </video>
+          <p class="media-error" hidden>This video could not be loaded. <a href="assets/videos/real-cooperative-transport-full-20260920.mp4">Open the MP4 directly.</a></p>
         </div>
         <figcaption>
-          <div><span class="media-eyebrow">Featured demonstration · Sim2Real</span><h2>Two embodiments, one shared load.</h2><p id="featured-description">Real-robot cooperative transport videos will be featured here.</p></div>
-          <span class="video-duration">B2 + B2W</span>
+          <div><span class="media-eyebrow">Featured demonstration</span><h2>Real-robot cooperative transport</h2><p id="featured-description">Straight-line transport, coordinated turning, and human–robot collaboration.</p></div>
+          <span class="video-duration">4:06 <span aria-hidden="true">/</span> Sim2Real</span>
         </figcaption>
       </figure>
     </section>
@@ -185,17 +186,58 @@
 
     <section class="section wrap sim2real" id="sim2real" aria-labelledby="sim2real-title">
       <div class="section-heading"><div><span class="section-index">05 / Sim2Real</span><h2 id="sim2real-title">Sim2Real · Real-robot experiments</h2></div></div>
-      <section class="hardware-placeholder" id="real-robot-experiments" aria-labelledby="hardware-title">
-        <div class="hardware-placeholder-frame">
-          <svg viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="5" y="12" width="26" height="24" rx="4"/><path d="m31 20 12-6v20l-12-6Z"/></svg>
-          <span>Video forthcoming</span>
-        </div>
-        <div class="demo-copy">
-          <div class="demo-meta"><span>Real-world experiments</span><span>To be added</span></div>
-          <h3 id="hardware-title">Real-robot cooperative transport</h3>
-          <p>Cooperative transport videos with the physical robots will be added here.</p>
-        </div>
-      </section>
+      <div class="demo-grid" id="real-robot-experiments">
+        <article class="demo-card">
+          <div class="video-frame">
+            <video controls playsinline preload="none" poster="assets/images/real-straight-unloaded-20260920.jpg" width="1920" height="1080" aria-label="Straight-line transport · unloaded with physical robots" aria-describedby="real-straight-unloaded-20260920-description">
+              <source src="assets/videos/real-straight-unloaded-20260920.mp4" type="video/mp4">
+              <a href="assets/videos/real-straight-unloaded-20260920.mp4">Open this demonstration as an MP4.</a>
+            </video>
+            <p class="media-error" hidden>This video could not be loaded. <a href="assets/videos/real-straight-unloaded-20260920.mp4">Open the MP4 directly.</a></p>
+          </div>
+          <div class="demo-copy"><div class="demo-meta"><span>Sim2Real / Physical robots</span><span>1:14</span></div><h3>Straight-line transport · unloaded</h3><p id="real-straight-unloaded-20260920-description">Straight-line cooperative transport with the shared beam.</p><span class="condition">Straight-line transport</span></div>
+        </article>
+        <article class="demo-card">
+          <div class="video-frame">
+            <video controls playsinline preload="none" poster="assets/images/real-straight-loaded-20260920.jpg" width="1920" height="1080" aria-label="Straight-line transport · loaded with physical robots" aria-describedby="real-straight-loaded-20260920-description">
+              <source src="assets/videos/real-straight-loaded-20260920.mp4" type="video/mp4">
+              <a href="assets/videos/real-straight-loaded-20260920.mp4">Open this demonstration as an MP4.</a>
+            </video>
+            <p class="media-error" hidden>This video could not be loaded. <a href="assets/videos/real-straight-loaded-20260920.mp4">Open the MP4 directly.</a></p>
+          </div>
+          <div class="demo-copy"><div class="demo-meta"><span>Sim2Real / Physical robots</span><span>1:19</span></div><h3>Straight-line transport · loaded</h3><p id="real-straight-loaded-20260920-description">Straight-line cooperative transport with a combined beam-and-payload mass of approximately 8 kg.</p><span class="condition">Straight-line transport</span></div>
+        </article>
+        <article class="demo-card">
+          <div class="video-frame">
+            <video controls playsinline preload="none" poster="assets/images/real-turning-unloaded-20260920.jpg" width="1920" height="1080" aria-label="Coordinated turning · unloaded with physical robots" aria-describedby="real-turning-unloaded-20260920-description">
+              <source src="assets/videos/real-turning-unloaded-20260920.mp4" type="video/mp4">
+              <a href="assets/videos/real-turning-unloaded-20260920.mp4">Open this demonstration as an MP4.</a>
+            </video>
+            <p class="media-error" hidden>This video could not be loaded. <a href="assets/videos/real-turning-unloaded-20260920.mp4">Open the MP4 directly.</a></p>
+          </div>
+          <div class="demo-copy"><div class="demo-meta"><span>Sim2Real / Physical robots</span><span>31 s</span></div><h3>Coordinated turning · unloaded</h3><p id="real-turning-unloaded-20260920-description">Coordinated turning while carrying the shared beam.</p><span class="condition">Coordinated turning</span></div>
+        </article>
+        <article class="demo-card">
+          <div class="video-frame">
+            <video controls playsinline preload="none" poster="assets/images/real-turning-loaded-20260920.jpg" width="1920" height="1080" aria-label="Coordinated turning · loaded with physical robots" aria-describedby="real-turning-loaded-20260920-description">
+              <source src="assets/videos/real-turning-loaded-20260920.mp4" type="video/mp4">
+              <a href="assets/videos/real-turning-loaded-20260920.mp4">Open this demonstration as an MP4.</a>
+            </video>
+            <p class="media-error" hidden>This video could not be loaded. <a href="assets/videos/real-turning-loaded-20260920.mp4">Open the MP4 directly.</a></p>
+          </div>
+          <div class="demo-copy"><div class="demo-meta"><span>Sim2Real / Physical robots</span><span>32 s</span></div><h3>Coordinated turning · loaded</h3><p id="real-turning-loaded-20260920-description">Coordinated turning while carrying the beam and added payload.</p><span class="condition">Coordinated turning</span></div>
+        </article>
+        <article class="demo-card">
+          <div class="video-frame">
+            <video controls playsinline preload="none" poster="assets/images/real-human-collaboration-20260920.jpg" width="1920" height="1080" aria-label="Human–robot collaboration with physical robots" aria-describedby="real-human-collaboration-20260920-description">
+              <source src="assets/videos/real-human-collaboration-20260920.mp4" type="video/mp4">
+              <a href="assets/videos/real-human-collaboration-20260920.mp4">Open this demonstration as an MP4.</a>
+            </video>
+            <p class="media-error" hidden>This video could not be loaded. <a href="assets/videos/real-human-collaboration-20260920.mp4">Open the MP4 directly.</a></p>
+          </div>
+          <div class="demo-copy"><div class="demo-meta"><span>Sim2Real / Physical robots</span><span>28 s</span></div><h3>Human–robot collaboration</h3><p id="real-human-collaboration-20260920-description">Shared-load transport with a human partner.</p><span class="condition">Human–robot collaboration</span></div>
+        </article>
+      </div>
     </section>
   </main>
   <footer class="site-footer wrap"><a class="wordmark" href="#main">HA-DiPO<span aria-hidden="true">.</span></a><p>Anonymous research project <span aria-hidden="true">/</span> Paper, arXiv, and code links forthcoming.</p><a href="#main" class="back-top">Back to top ↑</a></footer>
