@@ -62,15 +62,14 @@
       <div class="wrap section">
         <div class="section-heading"><div><span class="section-index">02 / Method</span><h2 id="method-title">Learn together. Act locally.</h2></div><p>Task coordination above<br> embodiment-specific locomotion.</p></div>
         <figure class="paper-overview">
-          <a href="assets/images/figure-1.png" target="_blank" rel="noopener noreferrer" aria-label="Open Figure 1 at full size in a new tab">
-            <img src="assets/images/figure-1.png" width="2585" height="1400" loading="lazy" alt="Figure 1 from the manuscript. Four panels show loose-contact heterogeneous transport, an agent-specific diffusion actor, the coordination and locomotion hierarchy, and centralized training with sequential policy updates." aria-describedby="figure-1-caption figure-1-note">
+          <a href="assets/images/figure-1-overview-20260925.png" target="_blank" rel="noopener noreferrer" aria-label="Open Figure 1 at full size in a new tab">
+            <img src="assets/images/figure-1-overview-20260925.png" width="2590" height="1065" loading="lazy" alt="Figure 1 from the manuscript. Four panels show heterogeneous loose-contact transport, centralized training with twin critics and sequential policy updates, hierarchical decentralized execution, and a conditional diffusion actor that maps Gaussian noise to bounded actions." aria-describedby="figure-1-caption">
           </a>
           <figcaption>
             <div class="figure-caption-row">
-              <p id="figure-1-caption"><strong>Figure 1. Overview of HA-DiPO.</strong> Heterogeneous agents support an unfixed payload through loose contact. Agent-specific diffusion policies map local histories to bounded responses, while a control hierarchy separates coordination from locomotion. The centralized critic and sequential updates are used only during training.</p>
-              <a class="text-link" href="assets/images/figure-1.png" target="_blank" rel="noopener noreferrer" aria-label="View Figure 1 at full size in a new tab">View full size <span aria-hidden="true">↗</span></a>
+              <p id="figure-1-caption"><strong>Figure 1. Overview of HA-DiPO.</strong> (a) Heterogeneous robots support an unfixed shared payload. (b) Centralized twin critics guide sequential policy updates through a diffusion-path objective. (c) Each robot uses local observations and task commands with an independent diffusion actor and a frozen, embodiment-specific locomotion policy. (d) Conditional iterative sampling produces bounded actions. Orange dashed arrows denote training operations; the distribution sketches illustrate representational flexibility.</p>
+              <a class="text-link" href="assets/images/figure-1-overview-20260925.png" target="_blank" rel="noopener noreferrer" aria-label="View Figure 1 at full size in a new tab">View full size <span aria-hidden="true">↗</span></a>
             </div>
-            <p class="figure-note" id="figure-1-note">Configuration note: the original manuscript figure shows 5 Hz coordination; the current demonstration setup uses 10 Hz.</p>
           </figcaption>
         </figure>
         <div class="method-points">
